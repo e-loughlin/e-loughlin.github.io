@@ -26,7 +26,7 @@ url                      : "https://e-loughlin.github.io"
 baseurl                  : ""
 repository               : e-loughlin/e-loughlin.github.io
 teaser                   : 
-logo                     : "/assets/images/petersen.png"
+logo                     : "/assets/images/logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -73,7 +73,7 @@ facebook:
   app_id                 :
   publisher              :
 linkedin                 : "eloughlin"
-og_image                 : /assets/images/petersen.png
+og_image                 : /assets/images/logo.png
 # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
