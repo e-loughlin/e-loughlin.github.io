@@ -1,0 +1,29 @@
+{% if include.id %}
+  {% assign feature_row = page[include.id] %}
+{% else %}
+  {% assign feature_row = page.feature_row %}
+{% endif %}
+<div class="feature__wrapper">
+  {% for f in feature_row %}
+    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+      <div class="archive__item">
+      <div class="archive__item-teaser center">
+      {% if f.video %}
+      {% include video/{{ f.video }} %}
+      {% endif %}
+      </div>
+        <div class="archive__item-body">
+          {% if f.title %}
+            <h2 class="archive__item-title">{{ f.title }}</h2>
+          {% endif %}
+
+          {% if f.excerpt %}
+            <div class="archive__item-excerpt">
+              {{ f.excerpt | markdownify }}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
