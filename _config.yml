@@ -17,10 +17,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-EN"
-title                    : "Quentin Fortier"
+title                    : "Evan Loughlin"
 title_separator          : "-"
 subtitle                 : "Personal website"
-name                     : "Quentin Fortier"
+name                     : "Evan Loughlin"
 description              : "Personal website, on computer science: algorithms, machine learning, optimization..."
 url                      : "https://fortierq.github.io"
 baseurl                  : ""
@@ -95,7 +95,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Quentin Fortier"
+  name             : "Evan Loughlin"
   avatar           : "/assets/images/photo_cv.png"
   bio              : "Teacher in computer science"
   # location         : "Lyon"

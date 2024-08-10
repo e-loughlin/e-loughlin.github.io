@@ -1,5 +1,5 @@
 ---
-title: "Quentin Fortier"
+title: "Evan Loughlin"
 layout: splash
 sticky: false
 header:
@@ -16,7 +16,7 @@ excerpt: "PhD and teacher in Computer Science"
 <!-- <script type="text/javascript" src="https://unpkg.com/github-activity-feed@latest/dist/github-activity.min.js"></script> -->
 
 <!-- <center>
-  <img src="/assets/images/qf.png" style="max-width: 180px; border-radius: 50%;" alt="Quentin Fortier"> 
+  <img src="/assets/images/qf.png" style="max-width: 180px; border-radius: 50%;" alt="Evan Loughlin"> 
   <div class="half-line"><br></div>
 </center> -->
 
