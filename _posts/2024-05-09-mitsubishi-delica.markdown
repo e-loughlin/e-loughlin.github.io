@@ -86,9 +86,9 @@ header:
 <p>Got started on the top part of the roof-rack pop-top.</p>
 <img src="https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/delica/pop-top-calculation.png" alt="Mitsubishi Delica Image">
 <p>Here's what the sketched-up design will look like. Strut calculations need to be just perfect so it's not too difficult to either open or close the topper. Eventually there will be a bed up there.</p>
-<img src="https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/delica/2024-06-27_23-31-16.jpg" alt="Mitsubishi Delica Image">
 <img src="https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/delica/climbing-break.jpg" alt="Mitsubishi Delica Image">
 <p>Climbing break! Porcupine Creek, AB.</p>
+<img src="https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/delica/2024-06-27_23-31-16.jpg" alt="Mitsubishi Delica Image">
 <p>I built a funny mechanism to help the bed lay flat, sort-of...</p>
 <img src="https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/delica/2024-06-27_23-31-46.jpg" alt="Mitsubishi Delica Image">
 <p>These bars are easily removable, and sort of "hammock" the bed. It's far from perfect but I've slept on it a few times and it's pretty decent.</p>
