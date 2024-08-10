@@ -19,12 +19,12 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-EN"
 title                    : "Evan Loughlin"
 title_separator          : "-"
-subtitle                 : "Personal website"
+subtitle                 : "Personal Website"
 name                     : "Evan Loughlin"
 description              : "Personal website, on computer science: algorithms, machine learning, optimization..."
-url                      : "https://fortierq.github.io"
+url                      : "https://e-loughlin.github.io"
 baseurl                  : ""
-repository               : fortierq/fortierq.github.io
+repository               : e-loughlin/e-loughlin.github.io
 teaser                   : 
 logo                     : "/assets/images/petersen.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -68,13 +68,11 @@ yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
-twitter:
-  username               : "FortierQuentin"
 facebook:
   username               :
   app_id                 :
   publisher              :
-linkedin                 : "fortierq"
+linkedin                 : "eloughlin"
 og_image                 : /assets/images/petersen.png
 # Open Graph/Twitter default site image
 # For specifying social profiles
@@ -83,7 +81,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - https://twitter.com/FortierQuentin
+    # - https://twitter.com/FortierQuentin
 
 # Analytics
 analytics:
@@ -97,40 +95,26 @@ analytics:
 author:
   name             : "Evan Loughlin"
   avatar           : "/assets/images/photo_cv.png"
-  bio              : "Teacher in computer science"
+  bio              : "Computer Scientist / Software Engineer - Machine Learning"
   # location         : "Lyon"
-  email            : "quentin.fortier@ens-lyon.org"
+  email            : "evan.m.loughlin@gmail.com"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/fortierq"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/FortierQuentin"
-    - label: "DockerHub"
-      icon: "fab fa-fw fa-docker"
-      url: "https://hub.docker.com/r/qfortier/"
+      url: "https://github.com/e-loughlin"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/fortierq"
-    # - label: "LeetCode"
-    #   url: "https://leetcode.com/qpfortier"
-    # - label: "Kaggle"
-    #   icon: "fab fa-fw fa-kaggle"
-    #   url: "https://www.kaggle.com/quentinfortier"
+      url: "https://linkedin.com/in/eloughlin"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter fa-3x"
-      url: "https://twitter.com/FortierQuentin"
     - label: "GitHub"
       icon: "fab fa-fw fa-github fa-3x"
-      url: "https://github.com/fortierq"
+      url: "https://github.com/e-loughlin"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin fa-3x"
-      url: "https://linkedin.com/in/fortierq/"
+      url: "https://linkedin.com/in/eloughlin/"
     
 
 # Reading Files
