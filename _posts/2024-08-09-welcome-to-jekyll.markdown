@@ -8,6 +8,7 @@ categories: jekyll update
 
 # TODO 
 - [ ]  Figure out how to host Jupyter notebooks on here
+- [ ] Update photo and icon
 - [x] Update Resume
 - [ ] Write blog posts for recent work
 - [ ] Update LinkedIn links to React site

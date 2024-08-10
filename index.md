@@ -5,7 +5,7 @@ sticky: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/woods.png
+  overlay_image: /assets/images/Mountains.jpeg
 excerpt: "Software Engineer / Machine Learning"  
 ---
 
