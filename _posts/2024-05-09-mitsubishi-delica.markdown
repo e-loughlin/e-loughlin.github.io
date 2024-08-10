@@ -84,7 +84,7 @@ header:
 <p>Transformer engage! Desk Mode!</p>
 <img src="https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/delica/2024-06-19_15-31-25.jpg" alt="Mitsubishi Delica Image">
 <p>Got started on the top part of the roof-rack pop-top.</p>
-<img src="https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/delica/pop-top-calculation.jpg" alt="Mitsubishi Delica Image">
+<img src="https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/delica/pop-top-calculation.png" alt="Mitsubishi Delica Image">
 <p>Here's what the sketched-up design will look like. Strut calculations need to be just perfect so it's not too difficult to either open or close the topper. Eventually there will be a bed up there.</p>
 <img src="https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/delica/2024-06-27_23-31-16.jpg" alt="Mitsubishi Delica Image">
 <img src="https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/delica/2024-06-27_23-31-46.jpg" alt="Mitsubishi Delica Image">
