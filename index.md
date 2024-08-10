@@ -6,7 +6,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/woods.png
-excerpt: "PhD and teacher in Computer Science"  
+excerpt: "Software Engineer / Machine Learning"  
 ---
 
 <link rel="stylesheet" href="https://unpkg.com/octicons@4.4.0/build/font/octicons.css">
