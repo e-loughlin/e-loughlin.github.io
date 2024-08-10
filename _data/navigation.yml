@@ -2,18 +2,18 @@
 main:
   - title: "Blog"
     url: /blog/
-  - title: "Teaching"
-    url: /teaching/
+  # - title: "Teaching"
+  #   url: /teaching/
   # - title: "Projects"
   #   url: /projects/
-  - title: "Notebooks"
-    url: /nb/
+  # - title: "Notebooks"
+  #   url: /nb/
   # - title: "Vente de livres"
   #   url: https://www.leboncoin.fr/profil/27498658-6b9a-412a-beab-4365d48febeb
   # - title: "Animations"
   #   url: /anim/ 
-  - title: "Research"
-    url: /research/
+  # - title: "Research"
+  #   url: /research/
   # - title: "Links"
   #   url: /links/
   - title: "CV"
