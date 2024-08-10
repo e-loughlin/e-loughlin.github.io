@@ -19,40 +19,40 @@ main:
   - title: "CV"
     url: /assets/CV.pdf
 
-sidebar-nb:
-  - title: "Optimisation"
-    children:
-      - title: Pavages
-        url: /nb/pavage/
-      - title: Heuristics for TSP
-        url: /nb/tsp/
-  - title: "Machine learning"
-    children:
-      - title: SVM
-        url: /nb/svm/
-      - title: Régression linéaire
-        url: /nb/regression_lineaire/
-      - title: Régression logistique
-        url: /nb/logistic/
-      - title: KNN
-        url: /nb/mnist_knn
-      - title: "House Prices (Kaggle)"
-        url: /nb/house_prices/
-      - title: "Clustering de voitures"
-        url: /nb/voitures_clustering/
-  - title: "Statistiques"
-    children:
-      - title: Statistiques Parcoursup
-        url: /nb/parcoursup/
-  - title: "Deep Learning"
-    children:
-      - title: Bases des réseaux de neurones
-        url: /nb/dnn/
-      - title: Reconnaissance d'image (projet INRIA) 
-        url: /nb/green_rover/
-  - title: "Traitement d'images"
-    children:
-      - title: Ray tracing
-        url: /nb/ray_tracing/
-      - title: Égalisation d'histogramme
-        url: /nb/hist_equal/
+# sidebar-nb:
+#   - title: "Optimisation"
+#     children:
+#       - title: Pavages
+#         url: /nb/pavage/
+#       - title: Heuristics for TSP
+#         url: /nb/tsp/
+#   - title: "Machine learning"
+#     children:
+#       - title: SVM
+#         url: /nb/svm/
+#       - title: Régression linéaire
+#         url: /nb/regression_lineaire/
+#       - title: Régression logistique
+#         url: /nb/logistic/
+#       - title: KNN
+#         url: /nb/mnist_knn
+#       - title: "House Prices (Kaggle)"
+#         url: /nb/house_prices/
+#       - title: "Clustering de voitures"
+#         url: /nb/voitures_clustering/
+#   - title: "Statistiques"
+#     children:
+#       - title: Statistiques Parcoursup
+#         url: /nb/parcoursup/
+#   - title: "Deep Learning"
+#     children:
+#       - title: Bases des réseaux de neurones
+#         url: /nb/dnn/
+#       - title: Reconnaissance d'image (projet INRIA) 
+#         url: /nb/green_rover/
+#   - title: "Traitement d'images"
+#     children:
+#       - title: Ray tracing
+#         url: /nb/ray_tracing/
+#       - title: Égalisation d'histogramme
+#         url: /nb/hist_equal/
