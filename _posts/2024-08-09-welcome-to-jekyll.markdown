@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "TODO List"
 date:   2024-08-09 20:32:05 -0600
 categories: jekyll update
 ---
@@ -13,4 +13,4 @@ categories: jekyll update
 - [ ] Update LinkedIn links to React site
 - [ ] Decommission the 3v4n.xyz react site
 - [ ] Blog post about ACKU.org
-- [ ] Figure out tagging / searching tags for blog posts
+- [ ] Figure out tagging / searching tags for blog posts (what are categories?)
