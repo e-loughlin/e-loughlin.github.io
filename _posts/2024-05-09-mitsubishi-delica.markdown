@@ -1,9 +1,8 @@
 ---
 title: "2004 Mitsubishi Delica - Camper Build"
 tags:
-  - mitsubishi
   - delica
-  - vanlife
+  - adventures
 header:
   teaser: https://raw.githubusercontent.com/fortierq/notebooks/master/nb/optimisation/janestreet/almost_magic/almost-magic.png
   og_image: https://raw.githubusercontent.com/fortierq/notebooks/master/nb/optimisation/almost_magic/almost-magic.png
