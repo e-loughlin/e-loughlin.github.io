@@ -14,6 +14,10 @@ Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit number
 
 Jekyll also offers powerful support for code snippets:
 
+Did this change? How about this 
+
+Well this is basically exactly what I was hoping for all along...
+
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
