@@ -4,8 +4,9 @@ tags:
   - delica
   - adventures
 header:
-  teaser: https://raw.githubusercontent.com/fortierq/notebooks/master/nb/optimisation/janestreet/almost_magic/almost-magic.png
-  og_image: https://raw.githubusercontent.com/fortierq/notebooks/master/nb/optimisation/almost_magic/almost-magic.png
+  teaser: https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/delica/2024-05-30_17-37-16.jpg
+  og_image: https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/delica/2024-05-30_17-37-16.jpg
+ 
 ---
 
 {% raw %}

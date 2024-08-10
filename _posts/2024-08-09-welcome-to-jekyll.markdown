@@ -19,7 +19,7 @@ categories: jekyll update
 
 
 # Posts to Write
-- [ ] Delica Post
+- [x] Delica Post
 - Travels
   - Hiking trips
   - Climbing trips
