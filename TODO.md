@@ -1,8 +1,8 @@
 # TODO 
 - [ ]  Figure out how to host Jupyter notebooks on here
-- [ ] Update photo and icon
+- [x] Update photo and icon
 - [x] Update Resume
-- [ ] Delica Post
+- [x] Delica Post
 - [ ] Write blog posts for recent work
 - [ ] Update LinkedIn links to React site
 - [ ] Decommission the 3v4n.xyz react site
@@ -17,3 +17,4 @@
   - Climbing trips
   - 
 
+- [x] Genetic Algorithm post
