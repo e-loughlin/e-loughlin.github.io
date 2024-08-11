@@ -34,13 +34,13 @@ excerpt: "Software Engineer / Machine Learning"
   {% endfor %}
 </div>
 
-<!-- <div id="feed"></div>
+<div id="feed"></div>
 
 <script type="text/javascript">
 GitHubActivity.feed({
-  username: "fortierq",
+  username: "e-loughlin",
   //repository: "your-repo", // optional
   selector: "#feed",
   limit: 5,
 });
-</script> -->
+</script> 
