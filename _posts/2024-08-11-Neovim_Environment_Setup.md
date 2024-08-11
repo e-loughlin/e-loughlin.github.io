@@ -1,8 +1,9 @@
 ---
 title: "My Neovim Environment"
 tags:
-  - linux
-  - hardware
+  - neovim
+  - vim
+  - programming
 toc: true
 toc_sticky: true
 header:
