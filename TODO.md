@@ -1,11 +1,3 @@
----
-layout: post
-title:  "TODO List"
-date:   2024-08-09 20:32:05 -0600
-categories: jekyll update
----
-
-
 # TODO 
 - [ ]  Figure out how to host Jupyter notebooks on here
 - [ ] Update photo and icon
@@ -24,3 +16,4 @@ categories: jekyll update
   - Hiking trips
   - Climbing trips
   - 
+
