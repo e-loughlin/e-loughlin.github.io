@@ -43,13 +43,44 @@ header:
             <img src="https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/genetic-algo/gen1.png" alt="Demographic Selection Constraint Satisfaction Problem" style="max-width: 100%; height: auto; margin: 20px auto;">
             <figcaption style="font-size: 0.9em; color: #7f8c8d;">Figure: Demographic Selection Constraint Satisfaction Problem</figcaption>
         </figure>
+
+<figure>
+    <img src="https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/genetic-algo/gen2.png" alt="Genetic Algorithm Flowchart" style="max-width: 50%; height: auto; margin: 20px auto;">
+    <figcaption style="font-size: 0.9em; color: #7f8c8d;">An example of defining which of the demographics each individual can possibly fall into.</figcaption>
+</figure>
     </section>
 
     <section>
         <h1 style="color: #2c3e50; font-size: 2em;">Genetic Algorithms</h1>
+
+    Genetic Algorithms (or Evolutionary Algorithms) are a class of algorithms which are inspired by biological evolution. The idea of "survival of the fittest" is used here. In this algorithm, you define what it means to be "fit". This is the fitness function, and it is the basis by which an individual in a population is judged. Those who are fittest have a greater chance of survival, and therefore propogating their offspring and creating the next generation of individuals. 
+    New offspring are created using a combination of Mutation and Crossover.
+
         <figure style="text-align: center;">
+
             <img src="https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/genetic-algo/gen5.png" alt="Genetic Algorithm Process" style="max-width: 100%; height: auto; margin: 20px auto;">
+
+            <figcaption style="font-size: 0.9em; color: #7f8c8d;">The Evolutionary Algorithm created the vast richness of life on our planet.</figcaption>
+    
+
+        </figure>
+    Successive iterations of multiple generations of individuals can help you traverse a multi-dimensional plane, continuously improving your fitness of each successive demographic.
+    This is, in effect, gradient descent. Note that it's probably to fall into local optima. If you consider biological evolution, there are extraordinary examples in regular life of local optima - species which are incredibly good at surviving in a particular habitat or environment.
+    Even in humans, we display considerable examples of local optima. Our spine for example has evolved primarily horizontally, until only relatively recently we stood upright. It's not really designed for compression, which explains why back problems are so common. A better design (better optima) would be to re-evolve the spine in a completely different fashion more appropriate for axial loading. However, "re-designing" is simply not possible, since the evolutionary algorithm just doesn't work that way - it can work with the genes it currently has a subtle, occasional mutations over successive generations.
+   <figure>
+            <img src="https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/genetic-algo/gen4.png" alt="Genetic Algorithm Results" style="max-width: 100%; height: auto; margin: 20px auto;">
+        <figcaption style="font-size: 0.9em; color: #7f8c8d;">Figure: A 3-D representation of Gradient Descent. This might depict successive iterations of generations improving the overall fitness. Think of "descending" as improving the fitness. </figcaption>
+    </figure>
+    <h2>Mutation</h2>
+    Mutation is where an individual gene within an individual is randomly changed. In the case of this specific problem, consider a "gene" to be a single assignment of an individual to one of their demographics. For example, if Shirley has cats and birds, then she can fit into either Bird or Cat owning demographics. We have to decide whether or not we wish to send her a box for Cat-owners, or a box for Bird-owners. In this case, the "gene" is that specific decision - "Shirley gets a box designated for Cat-Owners" is a single gene. Mutating that gene would be switching her assignment, such that she now gets a Cat-Owner box.
+
+    <h2>Crossover</h2>
+    Crossover is a case where new offspring is generated, and it takes some percentage of two other parents' genes. Typically it's 50/50, but you can play around with the numbers.
+
+        <figure>
             <img src="https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/genetic-algo/gen6.png" alt="Genetic Algorithm in Action" style="max-width: 100%; height: auto; margin: 20px auto;">
+
+    <figcaption style="font-size: 0.9em; color: #7f8c8d;">Figure: An diagram showing how Crossover and Mutation applies in this particular problem.</figcaption>
         </figure>
     </section>
 
@@ -66,9 +97,7 @@ header:
             <li>Repopulate the population through mutation and crossover until you reach the original population size.</li>
         </ol>
         <figure style="text-align: center;">
-            <img src="https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/genetic-algo/gen4.png" alt="Genetic Algorithm Results" style="max-width: 100%; height: auto; margin: 20px auto;">
             <img src="https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/genetic-algo/gen3.png" alt="Genetic Algorithm Process" style="max-width: 100%; height: auto; margin: 20px auto;">
-            <img src="https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/genetic-algo/gen2.png" alt="Genetic Algorithm Flowchart" style="max-width: 50%; height: auto; margin: 20px auto;">
         </figure>
     </section>
 
