@@ -101,5 +101,16 @@ header:
         </figure>
     </section>
 
+    <h1>Jupyter Notebook</h1>
+    
+    <div id="includedContent"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    $(function(){
+    $("#includedContent").load("../_notebooks/Cell-Balancing_GeneticAlgorithm.html");
+    });
+    </script>
+
+
 </body>
 {% endraw %}
