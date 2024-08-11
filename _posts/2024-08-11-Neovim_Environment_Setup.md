@@ -25,7 +25,7 @@ And much more...
 
 [![Youtube Link - Neovim Demo](https://img.youtube.com/vi/SO5PIPHvMyY/0.jpg)](https://www.youtube.com/watch?v=SO5PIPHvMyY)
 
-# Github Source 
+# GitHub Source 
 
 [https://github.com/e-loughlin/neovim_environment](https://github.com/e-loughlin/neovim_environment)
 
