@@ -5,5 +5,3 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 
 gem "webrick", "~> 1.7"
 
-
-gem "jekyll-jupyter-notebook"

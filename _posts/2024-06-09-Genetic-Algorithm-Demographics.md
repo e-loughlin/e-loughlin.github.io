@@ -75,5 +75,4 @@ I applied a genetic algorithm to tackle this problem. The process involved the f
 
 # Jupyter Notebook
 
-{::nomarkdown} {% jupyter_notebook "/_notebooks/2024-06-09-Genetic-Algorithm-Demographics.ipynb" %} {:/nomarkdown}
 
