@@ -1,12 +1,17 @@
-name: Jupyter Minimal Mistakes Workflow
-
-on: [push, pull_request]
-
 jobs:
-  build:
+  build-site:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Jupyter Minimal Mistakes
-      uses: ptmerz/jupyter-minimal-mistakes@v1.0.0
+      # Check out current repo
+      - name: Checkout current repository
+        uses: actions/checkout@v2
+      # Convert notebooks to Markdown posts
+      - name: Convert Jupyter notebooks to Markdown blog posts
+        uses: ptmerz/jupyter-minimal-mistakes@v1.0.0
+      # Build and deploy the site
+      - name: Build and deploy
+        uses: EdricChan03/action-build-deploy-ghpages@v2.5.0
+        env:
+          JEKYLL_ENV: 'production'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
