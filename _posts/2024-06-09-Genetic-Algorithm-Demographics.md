@@ -16,6 +16,11 @@ header:
 
 I worked at a marketing tech company where we encountered a challenging real-world problem. I successfully solved it using a Genetic Algorithm. In this post, I'll describe the problem and the solution I implemented. A Jupyter notebook is linked at the end for you to explore further.
 
+# Jupyter Notebook
+
+The [Jupyter Notebook](https://e-loughlin.github.io/notebooks/) can be played with here. 
+Alternatively, you can just view the HTML version here: [Genetic Algorithm Demographic Balancing]({{ "/nb/2024-06-09-Genetic-Algorithm-Demographic-Balancing-Jupyter/" | relative_url }}).
+
 # Problem Statement
 
 ## The Business
@@ -76,5 +81,4 @@ I applied a genetic algorithm to tackle this problem. The process involved the f
 # Jupyter Notebook
 
 
-[Genetic Algorithm Demographic Balancing]({{ "/nb/2024-06-09-Genetic-Algorithm-Demographic-Balancing-Jupyter/" | relative_url }})
 
