@@ -9,9 +9,17 @@ jobs:
       # Check out current repo
       - name: Checkout current repository
         uses: actions/checkout@v2
+        
+      # Set up Ruby
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3' 
+
       # Convert notebooks to Markdown posts
       - name: Convert Jupyter notebooks to Markdown blog posts
         uses: ptmerz/jupyter-minimal-mistakes@v1.0.0
+
       # Build and deploy the site
       - name: Build and deploy
         uses: EdricChan03/action-build-deploy-ghpages@v2.5.0
