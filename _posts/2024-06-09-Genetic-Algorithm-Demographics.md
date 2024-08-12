@@ -76,3 +76,5 @@ I applied a genetic algorithm to tackle this problem. The process involved the f
 # Jupyter Notebook
 
 
+[Genetic Algorithm Demographic Balancing]({{ "/nb/2024-06-09-Genetic-Algorithm-Demographic-Balancing-Jupyter/" | relative_url }})
+
