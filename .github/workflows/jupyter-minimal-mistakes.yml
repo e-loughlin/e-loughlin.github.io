@@ -1,0 +1,12 @@
+name: Jupyter Minimal Mistakes Workflow
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Jupyter Minimal Mistakes
+      uses: ptmerz/jupyter-minimal-mistakes@v1.0.0
