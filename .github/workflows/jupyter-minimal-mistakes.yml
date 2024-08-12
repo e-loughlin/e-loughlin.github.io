@@ -1,3 +1,7 @@
+name: Jupyter Minimal Mistakes Workflow
+
+on: [push, pull_request]
+
 jobs:
   build-site:
     runs-on: ubuntu-latest
