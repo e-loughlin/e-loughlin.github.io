@@ -52,9 +52,9 @@ def create_markdown_file(directory, title, date=None, tags=None):
             md_file.write(f"tags:\n  - Test\n")
 
         md_file.write(f"header:\n")
-        md_file.write(f"  teaser: /assets/images/{date}-{slugified_title}/img02.png\n")
+        md_file.write(f"  teaser: /assets/images/{date}-{slugified_title}/img03.png\n")
         md_file.write(
-            f"  og_image: /assets/images/{date}-{slugified_title}/img02.png\n"
+            f"  og_image: /assets/images/{date}-{slugified_title}/img03.png\n"
         )
         md_file.write(f"gallery:\n")
 

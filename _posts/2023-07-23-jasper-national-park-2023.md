@@ -5,8 +5,8 @@ tags:
   - Hiking
   - Fishing
 header:
-  teaser: /assets/images/2023-07-23-jasper-national-park-2023/img02.png
-  og_image: /assets/images/2023-07-23-jasper-national-park-2023/img02.png
+  teaser: /assets/images/2023-07-23-jasper-national-park-2023/img12.png
+  og_image: /assets/images/2023-07-23-jasper-national-park-2023/img12.png
 gallery:
   - url: /assets/images/2023-07-23-jasper-national-park-2023/img03.png
     image_path: /assets/images/2023-07-23-jasper-national-park-2023/img03.png
