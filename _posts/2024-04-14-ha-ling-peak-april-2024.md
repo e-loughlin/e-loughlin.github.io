@@ -1,7 +1,7 @@
 ---
 title: "Ha-Ling Peak - April 2024"
 tags:
-  - Test
+  - Adventures
 
 header:
   teaser: https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/2024-04-14-ha-ling-peak-april-2024/img1.png
