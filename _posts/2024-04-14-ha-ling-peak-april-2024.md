@@ -4,8 +4,8 @@ tags:
   - Adventures
 
 header:
-  teaser: https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/2024-04-14-ha-ling-peak-april-2024/img1.png
-  og_image: https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/2024-04-14-ha-ling-peak-april-2024/img1.png
+  teaser: /assets/images/2024-04-14-ha-ling-peak-april-2024/img2.png
+  og_image: /assets/images/2024-04-14-ha-ling-peak-april-2024/img2.png
 gallery:
   - url: /assets/images/2024-04-14-ha-ling-peak-april-2024/img2.png
     image_path: /assets/images/2024-04-14-ha-ling-peak-april-2024/img2.png

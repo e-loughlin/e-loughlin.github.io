@@ -4,9 +4,11 @@ tags:
   - Adventures
   - Fishing
   - Canada
+
 header:
-  teaser: https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/2023-02-12-lower-kananaskis-lake-ice-fishing-feb-2023/img1.png
-  og_image: https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/2023-02-12-lower-kananaskis-lake-ice-fishing-feb-2023/img1.png
+  teaser: /assets/images/2023-02-12-lower-kananaskis-lake-ice-fishing-feb-2023/img2.png
+  og_image: /assets/images/2023-02-12-lower-kananaskis-lake-ice-fishing-feb-2023/img2.png
+
 gallery:
   - url: /assets/images/2023-02-12-lower-kananaskis-lake-ice-fishing-feb-2023/img2.png
     image_path: /assets/images/2023-02-12-lower-kananaskis-lake-ice-fishing-feb-2023/img2.png
