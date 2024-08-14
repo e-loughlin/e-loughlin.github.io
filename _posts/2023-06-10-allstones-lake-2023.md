@@ -5,8 +5,8 @@ tags:
   - Hiking
   - Fishing
 header:
-  teaser: /assets/images/2023-06-10-allstones-lake-2023/img1.png
-  og_image: /assets/images/2023-06-10-allstones-lake-2023/img1.png
+  teaser: /assets/images/2023-06-10-allstones-lake-2023/img2.png
+  og_image: /assets/images/2023-06-10-allstones-lake-2023/img2.png
 gallery:
   - url: /assets/images/2023-06-10-allstones-lake-2023/img2.png
     image_path: /assets/images/2023-06-10-allstones-lake-2023/img2.png

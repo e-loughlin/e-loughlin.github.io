@@ -52,15 +52,17 @@ def create_markdown_file(directory, title, date=None, tags=None):
             md_file.write(f"tags:\n  - Test\n")
 
         md_file.write(f"header:\n")
-        md_file.write(f"  teaser: /assets/images/{date}-{slugified_title}/img1.png\n")
-        md_file.write(f"  og_image: /assets/images/{date}-{slugified_title}/img1.png\n")
+        md_file.write(f"  teaser: /assets/images/{date}-{slugified_title}/img02.png\n")
+        md_file.write(
+            f"  og_image: /assets/images/{date}-{slugified_title}/img02.png\n"
+        )
         md_file.write(f"gallery:\n")
 
         # Move and rename images
         images = sorted(os.listdir(directory))
         for i, img_name in enumerate(images):
             if img_name.lower().endswith((".png", ".jpg", ".jpeg", ".gif", ".bmp")):
-                img_new_name = f"img{i+1}.png"  # Start naming from img1.png
+                img_new_name = f"img{i+1:02}.png"  # Start naming from img01.png
                 src_img_path = os.path.join(directory, img_name)
                 dest_img_path = os.path.join(assets_dir, img_new_name)
 
