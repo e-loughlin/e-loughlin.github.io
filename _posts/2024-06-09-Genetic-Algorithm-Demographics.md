@@ -5,6 +5,7 @@ tags:
   - Machine Learning
   - Artificial Intelligence
   - Genetic Algorithm
+  - Engineering
   
 header:
   teaser: https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/genetic-algo/gen4.png

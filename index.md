@@ -9,16 +9,10 @@ header:
 excerpt: "Software Engineer / Machine Learning"  
 ---
 
-<link rel="stylesheet" href="https://unpkg.com/octicons@4.4.0/build/font/octicons.css">
-<!-- <link rel="stylesheet" href="https://unpkg.com/github-activity-feed@latest/dist/github-activity.min.css"> -->
-
-<!-- <script type="text/javascript" src="https://unpkg.com/mustache@4.2.0/mustache.min.js"></script> -->
-<!-- <script type="text/javascript" src="https://unpkg.com/github-activity-feed@latest/dist/github-activity.min.js"></script> -->
-
-<!-- <center>
-  <img src="/assets/images/qf.png" style="max-width: 180px; border-radius: 50%;" alt="Evan Loughlin"> 
-  <div class="half-line"><br></div>
-</center> -->
+<!-- <center> -->
+<!--   <img src="/assets/images/EvanFace.jpg" style="max-width: 180px; border-radius: 50%;" alt="Evan Loughlin">  -->
+<!--   <div class="half-line"><br></div> -->
+<!-- </center> -->
 
 <h3 class="archive__subtitle">Recent posts</h3>
 {% if paginator %}
@@ -35,12 +29,3 @@ excerpt: "Software Engineer / Machine Learning"
 </div>
 
 <div id="feed"></div>
-
-<script type="text/javascript">
-GitHubActivity.feed({
-  username: "e-loughlin",
-  //repository: "your-repo", // optional
-  selector: "#feed",
-  limit: 5,
-});
-</script> 

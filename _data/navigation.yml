@@ -1,13 +1,18 @@
 # main links
 main:
-  - title: "Blog"
-    url: /blog/
-  # - title: "Teaching"
+  - title: "Engineering"
+    url: /engineering/
+    icon: "fa-flask"
+  - title: Adventures
+    url: /adventures/
+    icon: "fa-mountain"
+  # - title: "Teaching
   #   url: /teaching/
   # - title: "Projects"
   #   url: /projects/
   - title: "Notebooks"
     url: /nb/
+    icon: "fa-book"
   # - title: "Vente de livres"
   #   url: https://www.leboncoin.fr/profil/27498658-6b9a-412a-beab-4365d48febeb
   # - title: "Animations"
@@ -18,6 +23,7 @@ main:
   #   url: /links/
   - title: "CV"
     url: /assets/CV.pdf
+    icon: "fa-address-book"
 
 sidebar-nb:
   - title: "Machine learning"
