@@ -5,8 +5,8 @@ tags:
   - Hiking
   - Fishing
 header:
-  teaser: /assets/images/2023-08-07-sawback-trail-banff-national-park-2023/img03.png
-  og_image: /assets/images/2023-08-07-sawback-trail-banff-national-park-2023/img03.png
+  teaser: /assets/images/2023-08-07-sawback-trail-banff-national-park-2023/img05.png
+  og_image: /assets/images/2023-08-07-sawback-trail-banff-national-park-2023/img05.png
 gallery:
   - url: /assets/images/2023-08-07-sawback-trail-banff-national-park-2023/img03.png
     image_path: /assets/images/2023-08-07-sawback-trail-banff-national-park-2023/img03.png
@@ -34,6 +34,10 @@ gallery:
     title: "Image 8 title caption"
   - url: /assets/images/2023-08-07-sawback-trail-banff-national-park-2023/img09.png
     image_path: /assets/images/2023-08-07-sawback-trail-banff-national-park-2023/img09.png
+    alt: "Sawback Trail - Banff National Park - 2023 Image 9"
+    title: "Image 9 title caption"
+  - url: /assets/images/2023-08-07-sawback-trail-banff-national-park-2023/img09.png
+    image_path: /assets/images/2023-08-07-sawback-trail-banff-national-park-2023/img14.png
     alt: "Sawback Trail - Banff National Park - 2023 Image 9"
     title: "Image 9 title caption"
 ---
