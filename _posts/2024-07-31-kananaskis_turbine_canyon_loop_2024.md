@@ -5,7 +5,7 @@ tags:
     - Backpacking
 
 header:
-  teaser: https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/2024-07-31-kananaskis_turbine_canyon_loop_2024/img1.png
+  teaser: https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/2023-07-31-kananaskis_turbine_canyon_loop_2024/img1.png
   og_image: https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/2024-07-31-kananaskis_turbine_canyon_loop_2024/img1.png
 
 gallery:
