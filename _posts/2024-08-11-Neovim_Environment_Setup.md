@@ -1,9 +1,8 @@
 ---
 title: "My Neovim Environment"
 tags:
-  - neovim
-  - vim
-  - programming
+  - Neovim
+  - Programming
   - Engineering 
 toc: true
 toc_sticky: true

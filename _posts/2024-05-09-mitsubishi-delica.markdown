@@ -1,8 +1,8 @@
 ---
 title: "2004 Mitsubishi Delica - Camper Build"
 tags:
-  - delica
-  - adventures
+  - Delica
+  - Adventures
 header:
   teaser: https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/delica/2024-05-30_17-37-16.jpg
   og_image: https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/delica/2024-05-30_17-37-16.jpg
