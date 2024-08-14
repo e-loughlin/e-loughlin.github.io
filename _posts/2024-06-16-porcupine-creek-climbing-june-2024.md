@@ -3,9 +3,11 @@ title: "Porcupine Creek Climbing - June 2024"
 tags:
   - Adventures
   - Climbing
+
 header:
   teaser: https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/2024-06-16-porcupine-creek-climbing-june-2024/img1.png
   og_image: https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/2024-06-16-porcupine-creek-climbing-june-2024/img1.png
+
 gallery:
   - url: /assets/images/2024-06-16-porcupine-creek-climbing-june-2024/img2.png
     image_path: /assets/images/2024-06-16-porcupine-creek-climbing-june-2024/img2.png
