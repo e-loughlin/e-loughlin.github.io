@@ -9,6 +9,7 @@ sticky: false
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evan Loughlin</title>
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
 </head>
 
 <div class="container-fluid">
@@ -18,7 +19,7 @@ sticky: false
       <img src="/assets/images/evan_far.png" width="250" class="profile-pic" style="border-radius: 50%; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
       <h1>Evan Loughlin</h1>
       <!-- <h3>Calgary, Alberta</h3> -->
-      <h5>Software Engineer</h5>
+      <!-- <h5>Software Engineer</h5> -->
 
 <p style="max-width: 40%; margin: 0 auto; text-align: center;">Thanks for visiting my portfolio! I'm Evan, a Software Engineer with a deep love for 
 exploring and studying the natural world, and creating things that make people's lives better. </p>
@@ -38,13 +39,13 @@ exploring and studying the natural world, and creating things that make people's
     <div style="text-align: center;">
         <a href="/adventures">
             <img src="/assets/images/nature_mountain.png" width="150" class="profile-pic" style="border-radius: 20%; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
-            <h3 style="margin-top: 10px;">Adventures</h3>
+            <h2 style="margin-top: 10px;">Adventures</h2>
         </a>
     </div>
     <div style="text-align: center;">
         <a href="/engineering">
             <img src="/assets/images/logo.jpeg" width="150" class="profile-pic" style="border-radius: 20%; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
-            <h3 style="margin-top: 10px;">Engineering</h3>
+            <h2 style="margin-top: 10px;">Engineering</h2>
         </a>
     </div>
 </div>
