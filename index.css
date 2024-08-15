@@ -1,0 +1,81 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #555;
+}
+
+h5 {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.socialLinks a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.socialLinks a:hover {
+    text-decoration: underline;
+}
+
+.row-footer {
+    margin-top: 50px;
+}
+
+footer-col {
+    padding: 15px;
+    color: #555;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+p {
+    margin: 0;
+    font-size: 1em;
+    color: #555;
+}
+
+.location {
+    font-size: 0.9em;
+    color: #888;
+}

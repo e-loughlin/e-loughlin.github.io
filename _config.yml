@@ -90,7 +90,7 @@ author:
   name             : "Evan Loughlin"
   avatar           : "/assets/images/photo_cv.png"
   bio              : "Computer Scientist / Software Engineer - Machine Learning"
-  # location         : "Lyon"
+  location         : "Canada"
   email            : "evan.m.loughlin@gmail.com"
   links:
     - label: "GitHub"
