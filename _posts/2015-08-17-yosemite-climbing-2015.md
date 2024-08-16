@@ -4,17 +4,13 @@ tags:
   - Adventures
   - Climbing
 header:
-  teaser: /assets/images/2015-08-17-yosemite-climbing-2015/img03.png
-  og_image: /assets/images/2015-08-17-yosemite-climbing-2015/img03.png
+  teaser: /assets/images/2015-08-17-yosemite-climbing-2015/img16.png
+  og_image: /assets/images/2015-08-17-yosemite-climbing-2015/img16.png
 gallery:
   - url: /assets/images/2015-08-17-yosemite-climbing-2015/img02.png
     image_path: /assets/images/2015-08-17-yosemite-climbing-2015/img02.png
     alt: "Yosemite Climbing, 2015 Image 2"
     title: "Image 2 title caption"
-  - url: /assets/images/2015-08-17-yosemite-climbing-2015/img03.png
-    image_path: /assets/images/2015-08-17-yosemite-climbing-2015/img03.png
-    alt: "Yosemite Climbing, 2015 Image 3"
-    title: "Image 3 title caption"
   - url: /assets/images/2015-08-17-yosemite-climbing-2015/img04.png
     image_path: /assets/images/2015-08-17-yosemite-climbing-2015/img04.png
     alt: "Yosemite Climbing, 2015 Image 4"
