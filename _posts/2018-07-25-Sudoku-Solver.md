@@ -13,7 +13,7 @@ Sudoku is a popular number puzzle that challenges the solver to fill a 9x9 grid 
 
 ## Link
 
-Code can be found on the [Sudoku Solver](https://github.com/e-loughlin/SudokuSolver)
+Code can be found on the [Github Repository](https://github.com/e-loughlin/SudokuSolver)
 
 ## Brute Force Algorithm
 
