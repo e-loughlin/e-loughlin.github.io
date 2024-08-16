@@ -5,11 +5,21 @@ tags:
   - Engineering
 toc: true
 toc_sticky: true
+
+header:
+  teaser: /assets/images/2018-07-25-Sudoku-Solver/sudoku.png
+  og_image: /assets/images/2018-07-25-Sudoku-Solver/sudoku.png
 ---
 
 ## Introduction
 
 Sudoku is a popular number puzzle that challenges the solver to fill a 9x9 grid so that each column, row, and 3x3 subgrid contains all digits from 1 to 9. While many techniques can solve Sudoku puzzles efficiently, the brute-force algorithm guarantees a solution by systematically trying every possibility.
+
+<p align="center">
+  <a href="/assets/images/2018-07-25-Sudoku-Solver/sudoku.gif">
+    <img src="/assets/images/2018-07-25-Sudoku-Solver/sudoku.gif" alt="Sudoku Solved with Brute Force">
+  </a>
+</p>
 
 ## Link
 
