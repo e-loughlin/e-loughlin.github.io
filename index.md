@@ -16,7 +16,8 @@ sticky: false
 
   <section class="about">
     <div class="text-center" style="margin-top:20px">
-      <img src="/assets/images/evan_far.png" width="250" class="profile-pic" style="border-radius: 50%; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+      <img src="/assets/images/photo_cv.png" width="250" class="profile-pic" style="border-radius: 50%; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+      <!-- <img src="/assets/images/evan_far.png" width="250" class="profile-pic" style="border-radius: 50%; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);"> -->
       <h1>Evan Loughlin</h1>
       <!-- <h3>Calgary, Alberta</h3> -->
       <!-- <h5>Software Engineer</h5> -->
