@@ -16,4 +16,4 @@ header:
 gallery:
 ---
 
-{% include gallery caption="Machine Learning - Supervised Learning Algorithms Comparison" layout="half" %}
+
