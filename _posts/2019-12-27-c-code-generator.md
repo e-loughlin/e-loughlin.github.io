@@ -8,6 +8,8 @@ tags:
 header:
   teaser: /assets/images/2019-12-27-c-code-generator/img02.png
   og_image: /assets/images/2019-12-27-c-code-generator/img02.png
+toc: true
+toc_sticky: true
 ---
 
 <p align="center">
