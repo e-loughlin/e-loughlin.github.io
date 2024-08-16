@@ -4,8 +4,8 @@ tags:
   - Adventures
   - Climbing
 header:
-  teaser: /assets/images/2013-12-17-australia-climbing-trip-2014/img03.png
-  og_image: /assets/images/2013-12-17-australia-climbing-trip-2014/img03.png
+  teaser: /assets/images/2013-12-17-australia-climbing-trip-2014/img15.png
+  og_image: /assets/images/2013-12-17-australia-climbing-trip-2014/img15.png
 gallery:
   - url: /assets/images/2013-12-17-australia-climbing-trip-2014/img02.png
     image_path: /assets/images/2013-12-17-australia-climbing-trip-2014/img02.png
