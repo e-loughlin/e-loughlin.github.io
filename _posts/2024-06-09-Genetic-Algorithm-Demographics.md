@@ -7,6 +7,8 @@ tags:
   - Genetic Algorithm
   - Engineering
   
+toc: true
+toc_sticky: true
 header:
   teaser: https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/genetic-algo/gen4.png
   og_image: https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/genetic-algo/gen4.png
