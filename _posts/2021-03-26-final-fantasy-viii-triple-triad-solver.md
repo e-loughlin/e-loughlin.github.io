@@ -1,5 +1,5 @@
 ---
-title: "Minimax Solver - Final Fantasy VIII - Triple Triad Card Game"  
+title: "Minimax Algorithm - Final Fantasy VIII - Triple Triad Card Game"  
 tags:  
   - Engineering  
   - Minimax  
