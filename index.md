@@ -37,15 +37,15 @@ exploring and studying the natural world, and creating things that make people's
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 40px;">
     <div style="text-align: center;">
-        <a href="/adventures">
-            <img src="/assets/images/nature_mountain.png" width="150" class="profile-pic" style="border-radius: 20%; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
-            <h2 style="margin-top: 10px;">Adventures</h2>
-        </a>
-    </div>
-    <div style="text-align: center;">
         <a href="/engineering">
             <img src="/assets/images/logo.jpeg" width="150" class="profile-pic" style="border-radius: 20%; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
             <h2 style="margin-top: 10px;">Engineering</h2>
+        </a>
+    </div>
+    <div style="text-align: center;">
+        <a href="/adventures">
+            <img src="/assets/images/nature_mountain.png" width="150" class="profile-pic" style="border-radius: 20%; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+            <h2 style="margin-top: 10px;">Adventures</h2>
         </a>
     </div>
 </div>
