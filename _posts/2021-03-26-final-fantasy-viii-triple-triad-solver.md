@@ -30,7 +30,7 @@ The complete rules can be found [here](https://finalfantasy.fandom.com/wiki/Trip
 
 ## The Minimax Algorithm
 
-The Minimax algorithm is a decision rule for minimizing the possible loss in a worst-case scenario. It plays a pivotal role in many AI-driven games by evaluating all possible moves to determine the best course of action.
+The [Minimax algorithm](https://en.wikipedia.org/wiki/Minimax) is a decision rule for minimizing the possible loss in a worst-case scenario. It plays a pivotal role in many AI-driven games by evaluating all possible moves to determine the best course of action.
 
 ### How It Works
 
