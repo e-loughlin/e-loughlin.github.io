@@ -5,7 +5,6 @@ tags:
   - Engineering
 toc: true
 toc_sticky: true
-
 header:
   teaser: /assets/images/2018-07-25-Sudoku-Solver/sudoku.png
   og_image: /assets/images/2018-07-25-Sudoku-Solver/sudoku.png

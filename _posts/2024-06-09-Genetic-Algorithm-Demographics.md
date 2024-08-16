@@ -82,5 +82,3 @@ I applied a genetic algorithm to tackle this problem. The process involved the f
 ![Genetic Algorithm Process](https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/genetic-algo/gen3.png)
 
 
-
-
