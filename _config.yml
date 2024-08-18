@@ -26,7 +26,7 @@ url                      : "https://e-loughlin.github.io"
 baseurl                  : ""
 repository               : e-loughlin/e-loughlin.github.io
 teaser                   : 
-logo                     : "/assets/images/logo.jpeg"
+logo                     : "/assets/images/favicon.ico"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
