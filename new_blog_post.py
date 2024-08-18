@@ -7,7 +7,7 @@ from datetime import datetime
 from slugify import slugify
 
 
-def create_markdown_file(directory, title, date=None, tags=None):
+def create_markdown_file(directory, title, post_type="gallery", date=None, tags=None):
     # Set up logging
     logging.basicConfig(
         level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -52,14 +52,19 @@ def create_markdown_file(directory, title, date=None, tags=None):
             md_file.write(f"tags:\n  - Test\n")
 
         md_file.write(f"header:\n")
-        md_file.write(f"  teaser: /assets/images/{date}-{slugified_title}/img03.png\n")
+        md_file.write(f"  teaser: /assets/images/{date}-{slugified_title}/img01.png\n")
         md_file.write(
-            f"  og_image: /assets/images/{date}-{slugified_title}/img03.png\n"
+            f"  og_image: /assets/images/{date}-{slugified_title}/img01.png\n"
         )
-        md_file.write(f"gallery:\n")
+
+        if post_type == "gallery":
+            md_file.write(f"gallery:\n")
 
         # Move and rename images
         images = sorted(os.listdir(directory))
+
+        image_links = ""
+
         for i, img_name in enumerate(images):
             if img_name.lower().endswith((".png", ".jpg", ".jpeg", ".gif", ".bmp")):
                 img_new_name = f"img{i+1:02}.png"  # Start naming from img01.png
@@ -70,14 +75,25 @@ def create_markdown_file(directory, title, date=None, tags=None):
                 shutil.move(src_img_path, dest_img_path)
 
                 img_url = f"/assets/images/{date}-{slugified_title}/{img_new_name}"
-                md_file.write(f"  - url: {img_url}\n")
-                md_file.write(f"    image_path: {img_url}\n")
-                md_file.write(f'    alt: "{title} Image {i+1}"\n')
-                md_file.write(f'    title: "Image {i+1} title caption"\n')
 
-        # Add the gallery inclusion
-        md_file.write(f"---\n\n")
-        md_file.write(f'{{% include gallery caption="{title}" layout="half" %}}\n')
+                if post_type == "gallery":
+                    md_file.write(f"  - url: {img_url}\n")
+                    md_file.write(f"    image_path: {img_url}\n")
+                    md_file.write(f'    alt: "{title} Image {i+1}"\n')
+                    md_file.write(f'    title: "Image {i+1} title caption"\n')
+                elif post_type == "blog":
+                    image_links += f"\n![{title} Image {i+1}]({img_url})\n"
+
+        if post_type == "gallery":
+            # Add the gallery inclusion
+            md_file.write(f"---\n\n")
+            md_file.write(f'{{% include gallery caption="{title}" layout="half" %}}\n')
+        elif post_type == "blog":
+            # Add table of contents if blog type
+            md_file.write(f"toc: true\n")
+            md_file.write(f"toc_sticky: true\n")
+            md_file.write(f"---\n\n")
+            md_file.write(image_links)
 
     logging.info("Markdown file created successfully.")
 
@@ -91,6 +107,12 @@ if __name__ == "__main__":
     )
     parser.add_argument("--title", required=True, help="Title of the post.")
     parser.add_argument(
+        "--type",
+        choices=["gallery", "blog"],
+        default="gallery",
+        help="Type of markdown post to generate.",
+    )
+    parser.add_argument(
         "--date", help="Date in the format YYYY-MM-DD (optional).", default=None
     )
     parser.add_argument(
@@ -99,4 +121,4 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    create_markdown_file(args.directory, args.title, args.date, args.tags)
+    create_markdown_file(args.directory, args.title, args.type, args.date, args.tags)
