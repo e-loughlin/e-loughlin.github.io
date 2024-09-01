@@ -10,6 +10,8 @@ header:
   og_image: /assets/images/2021-03-26-final-fantasy-viii-triple-triad-solver/img0w.png  
 ---
 
+![Triple Triad Solver](/assets/images/2021-03-26-final-fantasy-viii-triple-triad-solver/img02.png)
+
 {% include gallery caption="Final Fantasy VIII - Triple Triad Solver" layout="half" %}
 
 ## Introduction
@@ -18,7 +20,6 @@ Triple Triad is an awesome card game from Final Fantasy VIII. I loved this game 
 When playing through Triple Triad, I wanted to write a solver to help decide on optimal decision making to improve my chances of winning the game. I wrote a Minimax solver with controllable search depth. 
 You can specify the game state in the `gamestate.yaml` file.
 
-![Triple Triad Solver](/assets/images/2021-03-26-final-fantasy-viii-triple-triad-solver/img02.png)
 
 You can find the code on my [GitHub repository](https://github.com/e-loughlin/FFVIII-CardGameAI).
 

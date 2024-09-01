@@ -15,6 +15,8 @@ header:
  
 ---
 
+![PIC](https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/genetic-algo/gen4.png)
+
 # Introduction
 
 I worked at a marketing tech company where we encountered a challenging real-world problem. I successfully solved it using a Genetic Algorithm. In this post, I'll describe the problem and the solution I implemented. A Jupyter notebook is linked at the end for you to explore further.

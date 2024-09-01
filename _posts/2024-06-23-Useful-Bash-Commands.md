@@ -10,6 +10,10 @@ header:
   og_image: /assets/images/command-line.png
 ---
 
+![PIC](/assets/images/command-line.png)
+
+# Useful Command Line Scripts
+
 In the world of software engineering, efficiency is key. One way to enhance your productivity is by automating common tasks with command-line scripts. I've compiled a list of some of my favorite scripts that I frequently use in my `.zshrc` (on Mac) or `.bashrc` (on Ubuntu). These scripts help streamline my workflow and handle repetitive tasks effortlessly.
 
 ## Find And Replace Alias

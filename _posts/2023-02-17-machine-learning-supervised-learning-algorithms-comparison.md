@@ -11,11 +11,13 @@ tags:
   - Support Vector Machines
   - Decision Trees
 header:
-  teaser: /assets/images/2023-02-17-machine-learning-supervised-learning-algorithms-comparison/digits.png 
-  og_image: /assets/images/2023-02-17-machine-learning-supervised-learning-algorithms-comparison/digits.png 
+  teaser: /assets/images/2023-02-17-machine-learning-supervised-learning-algorithms-comparison/ml_diagram.png 
+  og_image: /assets/images/2023-02-17-machine-learning-supervised-learning-algorithms-comparison/ml_diagram.png 
 toc: true
 toc_sticky: true
 ---
+
+![5 Supervised Learning Algorithms](/assets/images/2023-02-17-machine-learning-supervised-learning-algorithms-comparison/ml_diagram.png)
 
 ## Introduction
 

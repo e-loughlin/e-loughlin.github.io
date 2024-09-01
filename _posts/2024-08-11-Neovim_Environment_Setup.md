@@ -11,6 +11,10 @@ header:
   og_image: /assets/images/neovim/neovim.png
 ---
 
+![PIC](/assets/images/neovim/neovim.png)
+
+# My Neovim Environment
+
 I use Neovim (branched off Astronvim) for my daily development environment. Part of my setup includes:
 
 - Customized key-mappings
