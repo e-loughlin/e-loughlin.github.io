@@ -28,8 +28,8 @@ def create_markdown_file(directory, title, post_type="gallery", date=None, tags=
     slugified_title = slugify(title)
 
     # Create paths
-    posts_dir = "./_posts/"
-    assets_dir = f"./assets/images/{date}-{slugified_title}/"
+    posts_dir = "./../_posts/"
+    assets_dir = f"./../assets/images/{date}-{slugified_title}/"
     os.makedirs(posts_dir, exist_ok=True)
     os.makedirs(assets_dir, exist_ok=True)
 
