@@ -17,4 +17,5 @@ sidebar-nb:
     url: /nb/2024-06-09-Genetic-Algorithm-Demographic-Balancing-Jupyter/
   - title: MNIST Digits - Convolutional Neural Networks in Pytorch
     url: /nb/mnist-digits-pytorch/
+
   title: Machine learning
