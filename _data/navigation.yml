@@ -1,33 +1,20 @@
-# main links
 main:
-  - title: "Engineering"
-    url: /engineering/
-    icon: "fa-flask"
-  - title: Adventures
-    url: /adventures/
-    icon: "fa-mountain"
-  # - title: "Teaching
-  #   url: /teaching/
-  # - title: "Projects"
-  #   url: /projects/
-  - title: "Notebooks"
-    url: /nb/
-    icon: "fa-book"
-  # - title: "Vente de livres"
-  #   url: https://www.leboncoin.fr/profil/27498658-6b9a-412a-beab-4365d48febeb
-  # - title: "Animations"
-  #   url: /anim/ 
-  # - title: "Research"
-  #   url: /research/
-  # - title: "Links"
-  #   url: /links/
-  - title: "CV"
-    url: /assets/CV.pdf
-    icon: "fa-address-book"
-
+- icon: fa-flask
+  title: Engineering
+  url: /engineering/
+- icon: fa-mountain
+  title: Adventures
+  url: /adventures/
+- icon: fa-book
+  title: Notebooks
+  url: /nb/
+- icon: fa-address-book
+  title: CV
+  url: /assets/CV.pdf
 sidebar-nb:
-  - title: "Machine learning"
-    children:
-      - title: Genetic Algorithms for Constraint Satisfaction
-        url: /nb/2024-06-09-Genetic-Algorithm-Demographic-Balancing-Jupyter/
-
+- children:
+  - title: Genetic Algorithms for Constraint Satisfaction
+    url: /nb/2024-06-09-Genetic-Algorithm-Demographic-Balancing-Jupyter/
+  - title: MNIST Digits - Convolutional Neural Networks in Pytorch
+    url: /nb/mnist-digits-pytorch/
+  title: Machine learning
