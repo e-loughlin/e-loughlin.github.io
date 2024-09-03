@@ -14,7 +14,7 @@ header:
 
   <H2>Documenting my Delica Camper Adventures and Build...</H2>
     
-  <p>Back in 2022 I imported a 2004 Mitubishi Delica from Japan. Here it is, fresh off the delivery truck! So clean and shiny. Came with 56,000km and a clean bill of health. This was the first day I realized that there's such thing as "low roof" models. I wish I had known this! I was a little sad that my model wasn't high-roof (my fault entirely for not researching). But overall, still really happy!</p>
+  <p>Back in 2022 I imported a 2004 Mitsubishi Delica from Japan. Here it is, fresh off the delivery truck! So clean and shiny. Came with 56,000km and a clean bill of health. This was the first day I realized that there's such thing as "low roof" models. I wish I had known this! I was a little sad that my model wasn't high-roof (my fault entirely for not researching). But overall, still really happy!</p>
 
     <img src="https://raw.githubusercontent.com/e-loughlin/e-loughlin.github.io/main/assets/images/delica/2022-11-10_16-01-36.jpg" alt="Mitsubishi Delica Image 1">
 

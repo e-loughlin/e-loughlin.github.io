@@ -24,7 +24,7 @@ def convert_notebook_to_html(notebook_path):
 
     # Prepare the content to be saved
     html_content = f"""---
-permalink: /nb/{slugified_name}
+permalink: /nb/{slugified_name}/
 layout: nb
 author_profile: false
 toc: true
