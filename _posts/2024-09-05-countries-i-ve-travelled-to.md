@@ -14,6 +14,7 @@ toc_sticky: true
 
 ## 🇨🇦 Canada
 ## 🇺🇸 United States
+## 🇨🇭 Switzerland
 ## 🇲🇽 Mexico
 ## 🇬🇹 Guatemala
 ## 🇧🇷 Brazil
