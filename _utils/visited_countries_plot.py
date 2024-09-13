@@ -117,7 +117,7 @@ for i in range(len(country_info)):
 
 # Now create the markdown content
 markdown_content = f"""---
-title: "Countries I've Travelled To"
+title: "Country Travel Tracker"
 tags:
   - Adventures
   - Engineering
