@@ -11,6 +11,10 @@ toc_sticky: true
 
 Just a fun visual demonstration of a [T-Square Fractal](https://en.wikipedia.org/wiki/T-square_(fractal)). You can update the range of RGB values through which the squares will be generated.
 
+## How T-Square Fractals Work
+
+T-Square Fractals are a simple fractal, where each individual box that is generated recursively creates 4 new boxes of smaller size centered at each of its four corners. The result is a pretty cool visualization!
+
 {% raw %}
 <head>
     <title>T-Square Fractal</title>
@@ -88,7 +92,7 @@ Just a fun visual demonstration of a [T-Square Fractal](https://en.wikipedia.org
         <button id="updateColors">Update Colour Range</button>
     </div>
 
-    <canvas id="fractalCanvas" width="400" height="400" style="display: block; margin: 0 auto;"></canvas>
+    <canvas id="fractalCanvas" width="400" height="390" style="display: block; margin: 0 auto;"></canvas>
 
     <script>
         const canvas = document.getElementById('fractalCanvas');
