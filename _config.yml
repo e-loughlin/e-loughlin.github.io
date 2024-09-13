@@ -69,13 +69,12 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
-
 # Site Author
 author:
   name             : "Evan Loughlin"
   avatar           : "/assets/images/evan_far.png"
   bio              : "Computer Scientist / Software Engineer - Machine Learning"
-  location         : "Canada"
+  location         : "🇨🇦Canada /🇦🇺 Australia"
   email            : "evan.m.loughlin@gmail.com"
   links:
     - label: "GitHub"
