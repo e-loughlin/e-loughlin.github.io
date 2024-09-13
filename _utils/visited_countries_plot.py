@@ -15,7 +15,6 @@ world = gpd.read_file(shapefile_path)
 visited_countries = [
     "CAN",
     "USA",
-    "CHE",
     "MEX",
     "GTM",
     "BRA",
@@ -27,6 +26,8 @@ visited_countries = [
     "ITA",
     "DEU",
     "CZE",
+    "CHE",
+    "NLD",
     "AUS",
     "NZL",
     "KOR",
