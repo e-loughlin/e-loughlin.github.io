@@ -18,3 +18,5 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+_utils/ne_10m_admin_0_countries/
