@@ -107,7 +107,9 @@ def country_info_from_code(country_code_alpha3):
 
 country_info = [country_info_from_code(x) for x in visited_countries]
 
-emoji_output = ""
+from datetime import datetime
+
+emoji_output = f"# Count = {len(visited_countries)} (As of {datetime.now().strftime('%Y-%m-%d')})\n\n"
 for i in range(len(country_info)):
     e, n = country_info[i]
     emoji_output += f"## {e} {n}\n"

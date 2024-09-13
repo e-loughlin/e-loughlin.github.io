@@ -12,6 +12,8 @@ toc_sticky: true
 
 ![PIC](/assets/images/2024-09-05-countries-i-ve-travelled-to/visited_countries.png)
 
+# Count = 22 (As of 2024-09-12)
+
 ## 🇨🇦 Canada
 ## 🇺🇸 United States
 ## 🇨🇭 Switzerland
