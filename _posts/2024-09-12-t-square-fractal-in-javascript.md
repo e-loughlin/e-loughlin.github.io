@@ -12,10 +12,7 @@ toc_sticky: true
 Just a fun visual demonstration of a [T-Square Fractal](https://en.wikipedia.org/wiki/T-square_(fractal)). You can update the range of RGB values through which the squares will be generated.
 
 {% raw %}
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>T-Square Fractal</title>
     <style>
         body {
@@ -207,6 +204,5 @@ Just a fun visual demonstration of a [T-Square Fractal](https://en.wikipedia.org
         startFractal();
     </script>
 </body>
-</html>
 {% endraw %}
 
