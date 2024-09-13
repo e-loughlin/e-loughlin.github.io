@@ -88,7 +88,7 @@ Just a fun visual demonstration of a [T-Square Fractal](https://en.wikipedia.org
         <button id="updateColors">Update Colour Range</button>
     </div>
 
-    <canvas id="fractalCanvas" width="640" height="640" style="display: block; margin: 0 auto;"></canvas>
+    <canvas id="fractalCanvas" width="400" height="400" style="display: block; margin: 0 auto;"></canvas>
 
     <script>
         const canvas = document.getElementById('fractalCanvas');
