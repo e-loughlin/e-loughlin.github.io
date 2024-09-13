@@ -15,12 +15,6 @@ Just a fun visual demonstration of a [T-Square Fractal](https://en.wikipedia.org
 <head>
     <title>T-Square Fractal</title>
     <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
 
         canvas {
             background-color: white;
