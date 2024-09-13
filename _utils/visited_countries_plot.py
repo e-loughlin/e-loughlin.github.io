@@ -120,8 +120,8 @@ tags:
 header:
   teaser: /{output_image_path}
   og_image: /{output_image_path}
-toc: false
-toc_sticky: false
+toc: true
+toc_sticky: true
 ---
 
 ![PIC](/{output_image_path})
