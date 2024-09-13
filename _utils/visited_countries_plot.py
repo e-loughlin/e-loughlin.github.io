@@ -116,6 +116,7 @@ markdown_content = f"""---
 title: "Countries I've Travelled To"
 tags:
   - Adventures
+  - Engineering
 header:
   teaser: /{output_image_path}
   og_image: /{output_image_path}
@@ -127,19 +128,46 @@ toc_sticky: true
 
 {emoji_output}
 
-This is how I created the above graphic:
+# Python Visualization Script
+The following script is how I generated the image above from country codes.
 
 ```python
+import os
+import random
+
+import geopandas as gpd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 # Path to your local shapefile
-# Downloaded from: https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/
 shapefile_path = "./ne_10m_admin_0_countries/ne_10m_admin_0_countries.shp"
 
 # Load the local shapefile
 world = gpd.read_file(shapefile_path)
 
+# List of visited countries (ISO 3166-1 alpha-3 country codes)
 visited_countries = [
-    "CAN", "USA", "MEX", "GTM", "BRA", "DOM", "GBR", "FRA", "ESP", "MCO",
-    "ITA", "DEU", "CZE", "AUS", "NZL", "KOR", "THA", "VNM", "TUR", "GRC", "VAT"
+    "CAN",
+    "USA",
+    "MEX",
+    "GTM",
+    "BRA",
+    "DOM",
+    "GBR",
+    "FRA",
+    "ESP",
+    "MCO",
+    "ITA",
+    "DEU",
+    "CZE",
+    "AUS",
+    "NZL",
+    "KOR",
+    "THA",
+    "VNM",
+    "TUR",
+    "GRC",
+    "VAT",
 ]
 
 # Create a new column 'visited' to mark visited countries
@@ -147,20 +175,37 @@ world["visited"] = world["ADM0_A3"].apply(
     lambda x: "Visited" if x in visited_countries else "Not Visited"
 )
 
+# Create a unique color for each visited country
+# Get a seaborn palette with enough colors for the visited countries
+palette = sns.color_palette("Set2", len(visited_countries))
+
+# Assign each visited country a color from the palette
+visited_colors = {{country: palette[i] for i, country in enumerate(visited_countries)}}
+
+# Create a new column to assign colors to visited countries
+world["color"] = world["ADM0_A3"].apply(
+    lambda x: visited_colors.get(x, "#fafafa")
+)  # Default non-visited countries to gray
+
 # Plot the map
 fig, ax = plt.subplots(1, 1, figsize=(15, 10))
-world.boundary.plot(ax=ax, linewidth=1, color="black")  # Country borders
-world[world["visited"] == "Visited"].plot(
-    ax=ax, color="lightblue", legend=True
-)  # Shade visited countries
+
+# Plot country borders
+world.boundary.plot(ax=ax, linewidth=1, color="black")
+
+# Plot visited countries with their assigned colors
+world.plot(ax=ax, color=world["color"], edgecolor="black", legend=True)
 
 # Add title
 ax.set_title("Countries I've Visited", fontsize=16)
 ax.axis("off")
 
+output_image_path = (
+    "assets/images/2024-09-05-countries-i-ve-travelled-to/visited_countries.png"
+)
 # Save the map as a PNG file
 plt.savefig(
-    "../assets/images/2024-09-05-countries-i-ve-travelled-to/visited_countries.png",
+    os.path.join("../", output_image_path),
     bbox_inches="tight",
     dpi=300,
 )
