@@ -130,6 +130,8 @@ toc_sticky: true
 
 ![PIC](/{output_image_path})
 
+These are the countries I've travelled to so far! This script (bottom of page) lets me add a country code, and it'll update this page :). 
+
 {emoji_output}
 
 # Python Visualization Script

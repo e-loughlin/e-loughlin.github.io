@@ -12,6 +12,8 @@ toc_sticky: true
 
 ![PIC](/assets/images/2024-09-05-countries-i-ve-travelled-to/visited_countries.png)
 
+These are the countries I've travelled to so far! This script (bottom of page) lets me add a country code, and it'll update this page :). 
+
 # Count = 23 (As of 2024-09-12)
 
 ## 🇨🇦 Canada
