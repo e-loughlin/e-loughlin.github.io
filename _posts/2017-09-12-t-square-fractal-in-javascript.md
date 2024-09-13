@@ -204,3 +204,7 @@ T-Square Fractals are a simple fractal, where each individual box that is genera
 </body>
 {% endraw %}
 
+## Source Code
+
+You can find my [Java implementation here](https://github.com/e-loughlin/tSquareFractal/blob/master/src/Core/Game.java), or the [Javascript implementation here](https://github.com/e-loughlin/e-loughlin.github.io/blob/main/_posts/2017-09-12-t-square-fractal-in-javascript.md) (the source code to this page).
+
