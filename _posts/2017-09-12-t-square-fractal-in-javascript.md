@@ -3,8 +3,8 @@ title: "T-Square Fractal in Javascript"
 tags:
   - Engineering
 header:
-  teaser: /assets/images/2024-09-12-t-square-fractal-in-javascript/img01.png
-  og_image: /assets/images/2024-09-12-t-square-fractal-in-javascript/img01.png
+  teaser: /assets/images/2017-09-12-t-square-fractal-in-javascript/img01.png
+  og_image: /assets/images/2017-09-12-t-square-fractal-in-javascript/img01.png
 toc: true
 toc_sticky: true
 ---
