@@ -73,11 +73,3 @@ The tool offers various options to customize its behavior:
 
 * **Scroll Key (`-k`):** (Optional, Default: "down") This option defines the keyboard key used for scrolling. By default, it's set to "down", but you can change it to "up" if your application requires scrolling up (e.g., chat windows). Refer to PyAutoGUI's documentation ([link to PyAutoGUI documentation](https://pyautogui.readthedocs.io/en/latest/keyboard.html)) for a list of supported keyboard keys and more advanced key settings. **Note that for Microsoft Teams, you may need to scroll "up", instead of the default of "down". MAKE SURE YOU SET THE RIGHT KEY**
 
-## Demo
-
-A visual demonstration of the tool in action can be found in the following resources:
-
-* **Youtube Video:** [https://youtu.be/WOgt3EsVAUU](https://youtu.be/WOgt3EsVAUU)
-
-
-This blog post provides a basic understanding of the Scroll and Screenshot Tool. Remember to consult the tool's documentation (`python scroll-screenshotter.py -h`) for more detailed information and advanced usage options.
