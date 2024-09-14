@@ -77,7 +77,6 @@ The tool offers various options to customize its behavior:
 
 A visual demonstration of the tool in action can be found in the following resources:
 
-* **Animated GIF:** [Screenshot Tool Demo](demo.gif)
 * **Youtube Video:** [https://youtu.be/WOgt3EsVAUU](https://youtu.be/WOgt3EsVAUU)
 
 
