@@ -19,9 +19,13 @@ toc_sticky: true
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WOgt3EsVAUU" title="YouTube: Screenshot Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
 
-## Scroll and Screenshot Tool
+# Scroll and Screenshot Tool
 
-This Markdown blog post details a Python tool that automates scrolling and capturing screenshots in a loop. It's ideal for capturing information hidden beyond a single screen in applications without built-in export functionalities.
+Source code can be found on [GitHub](https://github.com/e-loughlin/scroll-screenshotter)
+
+## Overview
+
+This blog post details a Python tool that automates scrolling and capturing screenshots in a loop. It's ideal for capturing information hidden beyond a single screen in applications without built-in export functionalities.
 
 **Originally designed for capturing Microsoft Teams chats**, this tool can be adapted for any application where scrolling is required to view all the content.
 
