@@ -1,22 +1,24 @@
 main:
-- icon: fa-flask
-  title: Engineering
-  url: /engineering/
-- icon: fa-mountain
-  title: Adventures
-  url: /adventures/
-- icon: fa-book
-  title: Notebooks
-  url: /nb/
-- icon: fa-address-book
-  title: CV
-  url: /assets/CV.pdf
+  - icon: fa-flask
+    title: Engineering
+    url: /engineering/
+  - icon: fa-mountain
+    title: Adventures
+    url: /adventures/
+  - icon: fa-book
+    title: Notebooks
+    url: /nb/
+  - icon: fa-address-book
+    title: CV
+    url: /assets/CV.pdf
 sidebar-nb:
-- children:
-  - title: Genetic Algorithms for Constraint Satisfaction
-    url: /nb/2024-06-09-Genetic-Algorithm-Demographic-Balancing-Jupyter/
-  - title: MNIST Digits - Convolutional Neural Networks in Pytorch
-    url: /nb/mnist-digits-pytorch/
-  - title: Computational Photography - Panorama Creation in OpenCV
-    url: /nb/opencv-panoramas/
-  title: Machine learning
+  - children:
+      - title: Genetic Algorithms for Constraint Satisfaction
+        url: /nb/2024-06-09-Genetic-Algorithm-Demographic-Balancing-Jupyter/
+      - title: MNIST Digits - Convolutional Neural Networks in Pytorch
+        url: /nb/mnist-digits-pytorch/
+      - title: Computational Photography - Panorama Creation in OpenCV
+        url: /nb/opencv-panoramas/
+      - title: Titanic_Stats
+        url: /nb/titanic-stats/
+    title: Machine learning
