@@ -34,6 +34,7 @@ exploring and studying the natural world, and creating things that make people's
       <!--   </a> -->
       <!-- </div> -->
     </div>
+
   </section>
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 40px;">
